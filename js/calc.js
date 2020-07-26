@@ -12,8 +12,8 @@ function calc()
     {
       c=c*j;
     }
-    result=result+'<li class="fib-class">'+c+'</li>';
+    result=result+'<li class="fact-class">'+c+'</li>';
   }
   result=result+'</ul';
-  document.getElementById('fibb').innerHTML = result;
+  document.getElementById('fact').innerHTML = result;
 }
